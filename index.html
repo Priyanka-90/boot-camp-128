@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cricket-Game Play</title>
+    <link rel="stylesheet" href="style.css" type="text/css">
+</head>
+<body>
+<div class="container">
+    <div class="row">
+        <div class="col">
+            <img class="profile-icon" src="./assets/csk.png" alt="" height="150px" width="150px">
+            <span class="name" id="team-1-name">CSK</span>
+            <div class="row round-runs" id="team-1-round-runs">
+                <span class="col">-</span>
+                <span class="col">-</span>
+                <span class="col">-</span>
+                <span class="col">-</span>
+                <span class="col">-</span>
+                <span class="col">-</span>
+            </div>
+        </div>
+        <div class="col">
+            <div class="row score">
+            <span id="team-1-score">0</span>
+            <span>-</span>
+            <span id="team-2-score">0</span>
+            </div>
+        </div>
+        <div class="col">
+            <img class="profile-icon" src="./assets/rcb.png" alt="" height="150px" width="150px">
+            <span class="name" id="team-2-name">RCB</span>
+            <div class="row round-runs" id="team-2-round-runs">
+                <span class="col">-</span>
+                <span class="col">-</span>
+                <span class="col">-</span>
+                <span class="col">-</span>
+                <span class="col">-</span>
+                <span class="col">-</span>
+            </div>
+        </div>
+    </div>
+    <div class="row">
+        <button id="strike-button">Strike</button>
+    </div>
+    <div class="row" id="result" hidden></div>
+</div>
+</body>
+</html>
